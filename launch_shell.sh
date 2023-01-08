@@ -14,8 +14,8 @@ if [ $? -eq 0 ]; then
 fi
 
 docker run --name $PROJECT_NAME-container \
-    -v `pwd`:/app \
-    -it --entrypoint /bin/sh \
+    -v $(pwd):/app \
+    -it --entrypoint /bin/bash \
     $PROJECT_NAME-image
 
 exit 0
