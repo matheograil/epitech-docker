@@ -6,6 +6,6 @@ If you want to develop your Epitech project on the same environment as the robot
 
 Start by moving **launch_shell.sh** and **Dockerfile** at the root of your project.
 
-`sudo bash launch_shell.sh`
+`bash launch_shell.sh`
 
 That's all !
